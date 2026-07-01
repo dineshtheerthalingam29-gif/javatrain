@@ -1,5 +1,5 @@
 public class problem10 {
-  
+
     void show() {
         System.out.println("Method Called");
     }
