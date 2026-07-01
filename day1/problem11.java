@@ -1,5 +1,4 @@
-public class problem11 {
-    
+class Test {
     Test() {
         System.out.println("Constructor Executed");
     }
