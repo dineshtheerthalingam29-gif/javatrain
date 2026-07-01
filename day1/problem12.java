@@ -1,4 +1,5 @@
 public class problem12 {
+
     
     static {
         System.out.println("Static Block");
