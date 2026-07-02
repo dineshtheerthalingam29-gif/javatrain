@@ -8,3 +8,4 @@ public class problem3 {
         System.out.println(!a);
     }
 }
+
