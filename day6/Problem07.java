@@ -1,16 +1,18 @@
 import java.util.*;
-public class Problem06 {
+public class Problem07 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the arrays: ");
         int[] array = new int[5];
-        int sum = 0;
         for(int i=0;i<5;i++) {
             array[i] = sc.nextInt();
         }
-        for(int igit=0;i<5;i++) {
-            sum += array[i];
+        int max = array[0];
+        for(int i=0;i<5;i++) {
+            if(array[i] > max) {
+                max = array[i];
+            }
         }
-        System.out.print("Sum: " + sum);
+        System.out.print("Maximum element: " + max);
     }
 }
