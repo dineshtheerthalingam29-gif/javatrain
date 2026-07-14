@@ -14,7 +14,7 @@ public class Problem13 {
             }
         }
         int sum = 0;
-        System.out.println("The Sum of the matrix are: ");
+        System.out.println("The Sum of the matrix are: "); 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 if(i==j) {
