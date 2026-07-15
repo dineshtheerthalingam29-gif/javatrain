@@ -1,3 +1,5 @@
+package Day23;
+
 class Solution {
     public int subarraysDivByK(int[] nums, int k) {
         HashMap<Integer, Integer> map = new HashMap<>();

@@ -1,3 +1,5 @@
+package Day23;
+
 class Solution {
     public int largestAltitude(int[] gain) {
         int altitude = 0;

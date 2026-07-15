@@ -1,3 +1,5 @@
+package Day23;
+
 class Solution {
     public int[] vowelStrings(String[] words, int[][] queries) {
         int n = words.length;
